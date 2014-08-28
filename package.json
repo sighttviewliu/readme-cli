@@ -1,6 +1,6 @@
 {
-  "name": "readme-cli",
-  "version": "0.0.1",
+  "name": "readmeio",
+  "version": "0.0.2",
   "description": "Upload documentation to ReadMe",
   "main": "index.js",
   "scripts": {
@@ -8,17 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/gkoberger/readme-cli"
+    "url": "git://github.com/readmeio/readme-cli"
   },
   "keywords": [
     "readme"
   ],
+  "bin": {
+    "readmeio": "./bin/readmeio"
+  },
   "author": "ReadMe.io",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gkoberger/readme-cli/issues"
+    "url": "https://github.com/readmeio/readme-cli/issues"
   },
-  "homepage": "https://github.com/gkoberger/readme-cli",
+  "homepage": "https://github.com/readmeio/readme-cli",
   "dependencies": {
     "async": "^0.9.0",
     "colors": "^0.6.2",
