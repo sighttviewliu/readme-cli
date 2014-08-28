@@ -1,0 +1,31 @@
+{
+  "name": "readme-cli",
+  "version": "0.0.1",
+  "description": "Upload documentation to ReadMe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gkoberger/readme-cli"
+  },
+  "keywords": [
+    "readme"
+  ],
+  "author": "ReadMe.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gkoberger/readme-cli/issues"
+  },
+  "homepage": "https://github.com/gkoberger/readme-cli",
+  "dependencies": {
+    "async": "^0.9.0",
+    "colors": "^0.6.2",
+    "commander": "^2.3.0",
+    "lodash": "^2.4.1",
+    "readline-sync": "^0.4.7",
+    "request": "^2.40.0",
+    "semver": "^3.0.1"
+  }
+}
